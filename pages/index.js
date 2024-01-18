@@ -9,6 +9,7 @@ export default function Home()
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="robots" content="all" />
       </Head>
       <section className={utilStyles.linksList}>
         <p><a href="https://github.com/coolnormal23">github</a> | <a href="mailto:jakobedgeworth@gmail.com">contact (mail)</a></p>
