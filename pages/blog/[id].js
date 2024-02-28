@@ -37,7 +37,7 @@ export default function Post({ postData })
                     <div className={utilStyles.lightText}>
                         <Date dateString={postData.date} />
                     </div>
-                    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                    <div className={utilStyles.blogBody} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                     <div className={utilStyles.doneReading}>
                         <p>Done reading? <Link href="/bloghome">Back to blog home</Link> or <Link href="/">back to home</Link></p>
                     </div>
