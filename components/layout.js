@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Themechanger from './themechanger';
 
 const name = 'Jakob Edgeworth';
 export const siteTitle = 'Jakob Edgeworth';
@@ -55,11 +56,9 @@ export default function Layout({ children, home })
                 )}
             </header>
             <main>{children}</main>
-            {/* {!home && (
-                <div className={styles.backToHome}>
-                    <Link href="/">← Back to home</Link>
-                </div>
-            )} */}
+            <div className={utilStyles.darkModeDiv}>
+                <Themechanger/>
+            </div>
         </div>
     );
 }
