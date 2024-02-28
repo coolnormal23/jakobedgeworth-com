@@ -25,7 +25,7 @@ There's obviously a great number of other fanmade games. There's a quite popular
 
 /bbreference.png
 
-*Above: a Basketball Reference player page, cropped to just their career statistics.
+*Above: a Basketball Reference player page, cropped to just their career statistics.*
 
 Let's take some core ideas so far and try to list things that can make this project stand on it's own compared to these other games.
 
